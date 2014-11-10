@@ -1,7 +1,7 @@
 开发目录规范
 ==========
 
-```javascript
+
 .
 ├── [package.json](#packagejson)    //声明&配置文件
 ├── build.sh        //编译文件
@@ -22,6 +22,5 @@
 ├── test  //本地测试文件
 ├── doc  //模块说明文档
 
-```
 
 ### package.json
