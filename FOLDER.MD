@@ -5,7 +5,6 @@
 .
 ├── package.json    //声明&配置文件
 ├── build.sh        //编译文件
-├── README.md       //模块说明目录
 ├── src             //源文件目录
     ├── css             //css 样式文件目录
     ├── less            //less 样式文件目录
@@ -29,4 +28,16 @@
 ├── output          //编译产出代码
 ```
 
-### package.json
+### package.json  配置
+
+```json
+{
+    "name": "xxx",  //模块名称
+    "description": "Concatenate files.",  //描述信息
+    "version": "1.0.1",  //模块版本
+    "url": "http://qing.baidu.com/xxx",  //对应线上地址
+    "author": [{
+        "name": "xxx",
+        "mail": "xxx@xxx.com"
+    }]
+}
