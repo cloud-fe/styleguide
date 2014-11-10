@@ -4,7 +4,7 @@
 ```
 .
 
-├── [package.json](#packagejson)    //声明&配置文件
+├-- [package.json](#packagejson)    //声明&配置文件
 
 ├── build.sh        //编译文件
 
