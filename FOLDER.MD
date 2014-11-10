@@ -26,6 +26,7 @@
         ├── bootstrap.css
 ├── test            //本地测试文件
 ├── doc             //模块说明文档
+├── output          //编译产出代码
 ```
 
 ### package.json
