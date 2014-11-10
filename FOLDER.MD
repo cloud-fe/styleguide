@@ -1,7 +1,7 @@
 开发目录规范
 ==========
 
-```json
+```javascript
 .
 ├── package.json    //声明&配置文件
 ├── build.sh        //编译文件
@@ -30,7 +30,7 @@
 
 ### package.json  配置
 
-```json
+```javascript
 {
     "name": "xxx",                          //模块名称
     "description": "Concatenate files.",    //描述信息
