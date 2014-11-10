@@ -25,18 +25,18 @@
             ├── main.css        //组件入口css文件
             ├── README.md       //组件说明文档
 ├── lib             //前端lib
-    ├── jquery.js
     ├── require.js
     ├── bootstrap
-        ├── bootstrap.js
-        ├── bootstrap.css
-├── test            //本地测试文件
+        ├── a_xxx.css
+        ├── b_xxx.css
+├── test            //测试数据目录
 ├── doc             //模块说明文档
 ├── output          //编译产出代码
 ```
 
-## package.json  配置
-
+## package.json  配置规范
+* 【强制】模块根目录必须有package.json文件，进行模块的配置
+* package.json主要配置信息如下
 ```javascript
 {
     "name": "xxx",                          //模块名称
@@ -48,3 +48,20 @@
         "mail": "xxx@xxx.com"                   //邮箱
     }]
 }
+
+## src目录文件规范
+* 【强制】src目录下按照文件类型进行分类（图片&组件类文件除外）
+* 【建议】同一产品线，尽量不出现同一功能的多种类型文件；
+
+    例：尽量不在一个项目中既使用less又使用css
+
+* 样式文件开发规范
+* 脚本文件开发规范
+* 图片文件开发规范
+* 模板文件开发规范
+* 组件开发规范
+
+## lib目录文件规范
+* 【强制】lib目录下只能存放第三方文件
+* 【强制】若第三方lib只有一个文件；如：require.js则直接放入lib目录下
+* 【强制】若第三方lib存在一组文件；如：bootstrap,则为该lib单独创建目录，将该lib的一组文件放入相应目录
