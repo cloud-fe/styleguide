@@ -32,12 +32,12 @@
 
 ```json
 {
-    "name": "xxx",  //模块名称
-    "description": "Concatenate files.",  //描述信息
-    "version": "1.0.1",  //模块版本
-    "url": "http://qing.baidu.com/xxx",  //对应线上地址
-    "author": [{
-        "name": "xxx",
-        "mail": "xxx@xxx.com"
+    "name": "xxx",                          //模块名称
+    "description": "Concatenate files.",    //描述信息
+    "version": "1.0.1",                     //模块版本
+    "url": "http://qing.baidu.com/xxx",     //对应线上地址
+    "author": [{                            //负责人信息
+        "name": "xxx",                          //姓名
+        "mail": "xxx@xxx.com"                   //邮箱
     }]
 }
