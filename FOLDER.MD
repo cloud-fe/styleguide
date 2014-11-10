@@ -3,7 +3,7 @@
 
 ```javascript
 .
-├── [package.json](#package.json)    //声明&配置文件
+├── [package.json](#packagejson)    //声明&配置文件
 ├── build.sh        //编译文件
 ├── README.md       //模块说明目录
 ├── css             //样式文件目录(可包含css,less等)
