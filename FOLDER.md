@@ -9,7 +9,7 @@
 
 ####目录结构：
 
-```javascript
+    ```javascript
     .
     ├── package.json    //声明&配置文件
     ├── build.sh        //编译脚本
@@ -33,7 +33,7 @@
     ├── test            //测试数据目录
     ├── doc             //模块说明文档
     ├── output          //编译产出代码
-```
+    ```
 
 ## package.json  配置规范
 * 【强制】模块根目录必须有package.json文件，进行模块的配置
