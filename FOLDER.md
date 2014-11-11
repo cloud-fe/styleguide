@@ -40,16 +40,16 @@
 * package.json主要配置信息如下
 
     ```javascript
-        {
-            "name": "xxx",                          //模块名称
-            "description": "Concatenate files.",    //描述信息
-            "version": "1.0.1",                     //模块版本
-            "url": "http://qing.baidu.com/xxx",     //对应线上地址
-            "author": [{                            //负责人信息
-                "name": "xxx",                          //姓名
-                "mail": "xxx@xxx.com"                   //邮箱
-            }]
-        }
+    {
+        "name": "xxx",                          //模块名称
+        "description": "Concatenate files.",    //描述信息
+        "version": "1.0.1",                     //模块版本
+        "url": "http://qing.baidu.com/xxx",     //对应线上地址
+        "author": [{                            //负责人信息
+            "name": "xxx",                          //姓名
+            "mail": "xxx@xxx.com"                   //邮箱
+        }]
+    }
     ```
 
 ## src目录文件规范
