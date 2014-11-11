@@ -1,7 +1,7 @@
 styleguide
 ==========
 
-##编码规范
+##编码规范遵循公司规范
 * [JavaScript编码规范](http://styleguide.baidu.com/style/javascript/index.html)
 * [HTML编码规范](http://styleguide.baidu.com/style/html/index.html)
 * [CSS编码规范](http://styleguide.baidu.com/style/css/index.html)
