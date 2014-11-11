@@ -3,7 +3,7 @@
 组件标示一组js+css+image来完成一项扩展功能。
 
 * 【强制】组件必须采用异步模块化加载方式，放入widget目录下
-* 【强制】组件书写符合commonjs规范，在编译时编译脚本自动进行`amd`包裹
+* 【强制】组件js书写符合commonjs规范，在编译时编译脚本自动进行`amd`包裹
 ```javascript
 var xxx = require('common/src/widget/xxx');
 var _init = function(){
@@ -40,3 +40,10 @@ define('xxx', function(require, exports, module){
     ②  tpl!common/src/widget/xxx
 ```
 * 【强制】各模块不可以加载除common和自身以外其他模块的组件
+* 【建议】分功能进行组件名区分
+```javascript
+例如：
+ui.xxx      //表示展示类型组件
+ext.xxx     //功能扩展类组件
+layer.xxx  //弹层类组件
+```
