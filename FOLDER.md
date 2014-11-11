@@ -38,6 +38,7 @@
 ## package.json  配置规范
 * 【强制】模块根目录必须有package.json文件，进行模块的配置
 * package.json主要配置信息如下
+* 
     ```javascript
         {
             "name": "xxx",                          //模块名称
