@@ -72,8 +72,20 @@
         ├── home_width_l_1920.less      //浏览器宽度 <= 1920px && > 1600 样式
         ├── ...
     ```
-    * less
 
 ###JavaScript文件
+* 【建议】建议common中定义全站统一的命名空间：x
+
+    ```javascript
+    x = {
+        util: {},       //通用工具方法
+        conf: {},       //通用展示
+        data: {},       //通用数据
+        m: {            //module, 分配给各模块去定义的命名空间
+            home: {},       //为home模块的命名空间
+            user: {}        //为user模块的命名空间
+        }
+    };
+    ```
 
 
