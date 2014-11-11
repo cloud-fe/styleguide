@@ -9,5 +9,6 @@ styleguide
 ##代码开发规范
 * [项目模块划分与命名规范](./MODULES.md)
 * [开发目录规范](./FOLDER.md)
+* [通用文件开发规范](./COMMON.md)
 * [外链资源引入规范](./LINK.md)
 * [组件开发规范](./WIDGET.md)
