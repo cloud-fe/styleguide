@@ -29,3 +29,11 @@ define('xxx', function(require, exports, module){
 1）String类型：xxx(模块名)/xxx(模块下文件路径)
 2）ID省略.js后缀
 ```
+* 【强制】widget加载方式：
+```
+1）var xxx = require('xxx');
+2）require(['xxx'], function(xxx){});
+3）css或者其他类型那个文件按照如下方式引入ID：
+    ①  css!common/src/widget/xxx
+    ②  tpl!common/src/tidget/xxx
+```
