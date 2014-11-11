@@ -1,10 +1,8 @@
 #各类型代码开发规范
 
-## 样式表文件
+### 样式表文件
 
-####编码规范
-
-CSS编码规范遵循公司整体[《CSS编码规范》](http://styleguide.baidu.com/style/css/index.html)
+* 【强制】CSS编码规范遵循公司整体[《CSS编码规范》](http://styleguide.baidu.com/style/css/index.html)
 
 * 【建议】通用css文件命名建议：
 
@@ -23,7 +21,7 @@ CSS编码规范遵循公司整体[《CSS编码规范》](http://styleguide.baidu
     * 模块下css：m(module)-xxx(模块名)-xxx
     * 组件下css：w(widget)-xxx(组件名)-xxx
 * 【建议】不使用@import语法，如果有import需求，使用less的import
-* 【建议】伪元素选择器使用`"::"`，伪类选择器使用`":"`，示例：
+* 【强制】伪元素选择器使用`"::"`，伪类选择器使用`":"`，示例：
 
     ```css
     /*伪元素*/
@@ -63,4 +61,18 @@ CSS编码规范遵循公司整体[《CSS编码规范》](http://styleguide.baidu
     * bnr : banner
     * ct  : content
     * tl  : title
+* 【建议】响应式布局样式文件书写建议：
+    ```javascript
+    .
+    ├── less                 //样式文件目录
+        ├── home.less                   //默认页面最小宽度样式
+        ├── home_width_l_1280.less      //浏览器宽度 <= 1280px && > min 样式
+        ├── home_width_l_1680.less      //浏览器宽度 <= 1600px && > 1280 样式
+        ├── home_width_l_1920.less      //浏览器宽度 <= 1920px && > 1600 样式
+        ├── ...
+    ```
+    * less
+
+###JavaScript文件
+
 
