@@ -24,18 +24,19 @@ define('xxx', function(require, exports, module){
     };
 });
 ```
-* 【强制】脚本生成ID规范：
+* 【强制】ID生成规范：
 ```
-1）String类型：xxx(模块名)/xxx(模块下文件路径)
+1）ID为String类型，命名：xxx(模块名)/xxx(模块下组件资源的路径)
 2）ID省略.js后缀
 ```
 * 【强制】组件目录下需要有main.js|main.css，表示该组件的入口文件
 * 【强制】组件目录下需要有使用markdown语法书写的README.md文件，来进行组件使用方面的相关描述
 * 【强制】widget加载方式：
 ```
-1）var xxx = require('xxx');
+1）var xxx = require('xxx(组件ID)');
 2）require(['xxx'], function(xxx){});
 3）css或者其他类型那个文件按照如下方式引入ID：
     ①  css!common/src/widget/xxx
-    ②  tpl!common/src/tidget/xxx
+    ②  tpl!common/src/widget/xxx
 ```
+* 【强制】各模块不可以加载除common和自身以外其他模块的组件
