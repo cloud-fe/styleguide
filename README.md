@@ -1,8 +1,12 @@
 styleguide
 ==========
 
-代码开发规范
+##编码规范
+* [JavaScript编码规范](http://styleguide.baidu.com/style/javascript/index.html)
+* [HTML编码规范](http://styleguide.baidu.com/style/html/index.html)
+* [CSS编码规范](http://styleguide.baidu.com/style/css/index.html)
 
+##代码开发规范
 * 项目模块划分与命名规范
 * 开发目录规范
 * 外链资源引入规范
