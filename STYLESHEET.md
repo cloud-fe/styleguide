@@ -10,8 +10,6 @@
 
 ####代码书写
 
-* 【强制】杜绝!important
-* 【建议】单个文件内选择器层级不超过4级
 * 【强制】禁止在css中单独设置@charset
 * 【强制】不使用@import语法，如果有import需求，使用less的import
 * 【建议】css缩写规范
