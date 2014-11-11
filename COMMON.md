@@ -18,7 +18,7 @@ CSS编码规范遵循公司整体[《CSS编码规范》](http://styleguide.baidu
             ├── grid.css        //栅格化 css
     ```
 
-* 【建议】css最外层选择器建议使用类选择器，最外层class命名建议如下
+* 【建议】css最外层选择器建议使用类选择器，最外层class命名建议：
     * common模块下的通用css：g-xxx
     * 模块下css：m(module)-xxx(模块名)-xxx
     * 组件下css：w(widget)-xxx(组件名)-xxx
