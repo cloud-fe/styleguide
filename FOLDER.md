@@ -9,47 +9,47 @@
 
 ####目录结构：
 
-    ```javascript
-    .
-    ├── package.json    //声明&配置文件
-    ├── build.sh        //编译脚本
-    ├── src             //源文件目录
-        ├── css             //css 样式文件目录
-        ├── less            //less 样式文件目录
-        ├── js              //js 文件目录
-        ├── image           //图片文件目录(可包含png,gif,jpg等)
-        ├── swf             //flash文件
-        ├── tpl             //smarty后端模板文件
-        ├── widget          //组件目录（可能包含一组tpl + js + css + image）
-            ├── ui.xxx          //展示类型组件
-                ├── main.js         //组件入口文件
-                ├── main.css        //组件入口css文件
-                ├── README.md       //组件说明文档
-    ├── lib             //前端lib
-        ├── require.js
-        ├── bootstrap
-            ├── a_xxx.css
-            ├── b_xxx.css
-    ├── test            //测试数据目录
-    ├── doc             //模块说明文档
-    ├── output          //编译产出代码
-    ```
+```javascript
+.
+├── package.json    //声明&配置文件
+├── build.sh        //编译脚本
+├── src             //源文件目录
+    ├── css             //css 样式文件目录
+    ├── less            //less 样式文件目录
+    ├── js              //js 文件目录
+    ├── image           //图片文件目录(可包含png,gif,jpg等)
+    ├── swf             //flash文件
+    ├── tpl             //smarty后端模板文件
+    ├── widget          //组件目录（可能包含一组tpl + js + css + image）
+        ├── ui.xxx          //展示类型组件
+            ├── main.js         //组件入口文件
+            ├── main.css        //组件入口css文件
+            ├── README.md       //组件说明文档
+├── lib             //前端lib
+    ├── require.js
+    ├── bootstrap
+        ├── a_xxx.css
+        ├── b_xxx.css
+├── test            //测试数据目录
+├── doc             //模块说明文档
+├── output          //编译产出代码
+```
 
 ## package.json  配置规范
 * 【强制】模块根目录必须有package.json文件，进行模块的配置
 * package.json主要配置信息如下
-```javascript
-    {
-        "name": "xxx",                          //模块名称
-        "description": "Concatenate files.",    //描述信息
-        "version": "1.0.1",                     //模块版本
-        "url": "http://qing.baidu.com/xxx",     //对应线上地址
-        "author": [{                            //负责人信息
-            "name": "xxx",                          //姓名
-            "mail": "xxx@xxx.com"                   //邮箱
-        }]
-    }
-```
+    ```javascript
+        {
+            "name": "xxx",                          //模块名称
+            "description": "Concatenate files.",    //描述信息
+            "version": "1.0.1",                     //模块版本
+            "url": "http://qing.baidu.com/xxx",     //对应线上地址
+            "author": [{                            //负责人信息
+                "name": "xxx",                          //姓名
+                "mail": "xxx@xxx.com"                   //邮箱
+            }]
+        }
+    ```
 
 ## src目录文件规范
 * 【强制】src目录下按照文件类型进行分类（图片&组件类文件除外）
