@@ -15,26 +15,17 @@
 * 【强制】禁止在css中单独设置@charset
 * 【强制】不使用@import语法，如果有import需求，使用less的import
 * 【建议】css缩写规范
-   * hd  : header
-   * ft  : footer
-   * ma  : main
-   * wp  : wrapper
-   * inr : inner
-   * bg  : background
-   * nav : navigator
-```
-1)  hd  : header
-2)  ft  : footer
-3)  ma  : main
-4)  wp  : wrapper
-5)  inr : inner
-6)  bg  : background
-7)  nav : navigator
-8)  bt  : button
-9)  sd  : sidebar
-10) lg  : logo
-11) bnr : banner
-12) ct  : content
-13) tl  : title
-```
+    * hd  : header
+    * ft  : footer
+    * ma  : main
+    * wp  : wrapper
+    * inr : inner
+    * bg  : background
+    * nav : navigator
+    * bt  : button
+    * sd  : sidebar
+    * lg  : logo
+    * bnr : banner
+    * ct  : content
+    * tl  : title
 
