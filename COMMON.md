@@ -72,6 +72,15 @@
         ├── home_width_l_1920.less      //浏览器宽度 <= 1920px && > 1600 样式
         ├── ...
     ```
+* 【建议】z-index的使用：
+    * 页面内容需要设置z-index的情况，z-index < 100
+    * 页面漂浮窗：z-index:100，漂浮框内容
+    * 吸顶导航：z-index: 200
+    * 浮动tip(如hover后的用户卡片)：z-index: 300
+    * 弹层遮罩层：z-index:1000
+    * 弹层窗体：z-index:1100
+    * 绝对顶级层：z-index:10000
+    * 建议底层css工具类中实现z-index
 
 ###JavaScript文件
 * 【建议】建议common中定义全站统一的命名空间：x
@@ -95,6 +104,9 @@
     * 页面domready后异步引入
     * 页面onload后异步引入
     * 当具体功能触发时异步引入
+* 【建议】cookie的使用&命名规则
+    * 禁止向baidu域下添加cookie
+    * cookie建议命名：模块名_页面名_xxx
 
 ###图片文件
 * 【强制】文件命名规范如下：
