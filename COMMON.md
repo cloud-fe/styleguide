@@ -74,13 +74,13 @@
     ```
 * 【建议】z-index的使用：
     * 页面内容需要设置z-index的情况，z-index < 100
-    * 页面漂浮窗：z-index:100，漂浮框内容
+    * 页面漂浮广告窗：z-index:100，漂浮框内容
     * 吸顶导航：z-index: 200
     * 浮动tip(如hover后的用户卡片)：z-index: 300
     * 弹层遮罩层：z-index:1000
     * 弹层窗体：z-index:1100
     * 绝对顶级层：z-index:10000
-    * 建议底层css工具类中实现z-index
+    * 建议底层css工具类中进行通用z-index封装
 
 ###JavaScript文件
 * 【建议】建议common中定义全站统一的命名空间：x
