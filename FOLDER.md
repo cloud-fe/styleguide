@@ -32,7 +32,7 @@
         ├── b_xxx.css
 ├── test            //测试数据目录
 ├── doc             //模块说明文档
-├── output          //编译产出代码
+├── dist          //编译产出代码
 ```
 
 ## package.json  配置规范
