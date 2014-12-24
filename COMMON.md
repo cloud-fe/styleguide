@@ -76,7 +76,8 @@
     * 页面内容需要设置z-index的情况，z-index < 100
     * 页面漂浮广告窗：z-index:100，漂浮框内容
     * 吸顶导航：z-index: 200
-    * 浮动tip(如hover后的用户卡片)：z-index: 300
+    * 回顶部、问题反馈等浮层：z-index: 300
+    * 浮动tip(如hover后的用户卡片)：z-index: 400
     * 弹层遮罩层：z-index:1000
     * 弹层窗体：z-index:1100
     * 绝对顶级层：z-index:10000
